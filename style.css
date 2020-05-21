@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* CSS Document */
+section img{
+	width: 255px;
+}
+
+section {
+	width:260px;
+	display:inline-block;
+	margin: 7px;
+	background:rgb(238, 255, 0);
+	vertical-align: top;
+	padding: 10px 12px 15px 12px;
+	box-shadow: #3A3939 2px 2px 3px;
+	min-height: 530px;
+	overflow: hidden;
+}
+
+section h2{
+	border-bottom: rgb(255, 255, 255) solid;
+}
+
+main h1{
+	text-align: center;
+	font-size: 36px;
+	color: rgb(251, 255, 0);
+	text-shadow: #3A3939 2px 2px 3px;
+}
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	background: rgb(11, 111, 226);
+	padding: 20px;
+}
+body{
+	background-image: url(../images/black.png);
+	background-attachment: fixed;
+	font-family: "Hoefler Text", Liberation Serif, Times, Times New Roman;
+	color:rgb(0, 0, 0);
+}
+header{
+	border-bottom: rgba(0, 0, 0, 0.933) inset;
+}
+	header-img{
+		width:100px;
+		margin:40pc;
+	}
+header h1{
+	font-size:80px;
+	text-align:center;
+}
+nav{
+	background:rgb(9, 255, 0);
+}
+nav a{
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	padding: 10px 30px;
+	margin: 0 auto;
+}
+nav a:hover{
+	color: rgb(0, 0, 0);
+	background:rgb(255, 0, 221);
+	
+}
+nav li{
+	display:initial;
+	border:#3A3939 solid 2px;
+}
+ul li{
+	display:initial;
+	border:#3A3939 solid 2px;
+}
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}

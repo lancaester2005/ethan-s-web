@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style1.css" rel="stylesheet" type="text/css" />
+    <title>login</title>
+  </head>
+  	<body><div id="frm">
+<form>
+    <label for="pswd">Enter your password: </label>
+    <input type="password" id="pswd">
+    <input id="btn" type="button" value="Submit" onclick="checkPswd();" />
+</form>
+<button onclick="myFunction()">Toggle dark mode</button>
+  </div>
+<!--Function to check password the already set password is admin-->
+<script type="text/javascript">
+      function checkPswd() {
+      var confirmPassword = "2023";
+      var password = document.getElementById("pswd").value;
+      if (password == confirmPassword) {
+        window.location = "Home.html";
+		
+      }
+    }
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+			
+		</div>
+	</body>
+</html>
